@@ -1,33 +1,3 @@
-<style>
-.project-title {
-  color: #2c3e50;
-  border-left: 5px solid #3498db;
-  padding-left: 15px;
-  font-size: 2em;
-  margin-bottom: 20px;
-}
-.section-box {
-  background-color: #f8f9fa;
-  border-left: 3px solid #2980b9;
-  padding: 15px;
-  margin: 15px 0;
-  border-radius: 5px;
-}
-.step-item {
-  margin: 10px 0;
-  padding: 8px;
-  background-color: #ecf0f1;
-  border-radius: 4px;
-}
-.notice {
-  background-color: #fff3cd;
-  border-left: 4px solid #f39c12;
-  padding: 10px;
-  margin-top: 20px;
-  border-radius: 5px;
-}
-</style>
-
 <!-- 项目标题 -->
 <h1 class="project-title">MOOC-Exam-Analyzer</h1>
 <p><strong>中文：</strong>超星学习通考试试卷分析工具</p>
