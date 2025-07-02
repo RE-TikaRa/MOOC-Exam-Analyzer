@@ -1,48 +1,66 @@
-# 项目名称
-英文：MOOC-Exam-Analyzer
+<style>
+.project-title {
+  color: #2c3e50;
+  border-left: 5px solid #3498db;
+  padding-left: 15px;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.section-box {
+  background-color: #f8f9fa;
+  border-left: 3px solid #2980b9;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 5px;
+}
+.step-item {
+  margin: 10px 0;
+  padding: 8px;
+  background-color: #ecf0f1;
+  border-radius: 4px;
+}
+.notice {
+  background-color: #fff3cd;
+  border-left: 4px solid #f39c12;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+</style>
 
-中文：超星学习通考试试卷分析工具
+<!-- 项目标题 -->
+<h1 class="project-title">MOOC-Exam-Analyzer</h1>
+<p><strong>中文：</strong>超星学习通考试试卷分析工具</p>
 
----
+<!-- 项目简介 -->
+<div class="section-box">
+  <h2>📘 项目简介</h2>
+  <p>因为孩子临考试才发现，学校的考试试卷只能手机查看，电脑上打不开，但是孩子想要把她整理成文档来复习，所以，写了。</p>
+  <img src="https://s2.loli.net/2025/07/02/CStRF7rXUTAq9g1.png" width="100%" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+</div>
 
-# 项目简介
+<!-- 使用方法 -->
+<div class="section-box">
+  <h2>🔧 使用方法</h2>
+  <ol>
+    <li class="step-item">在[releases](https://github.com/RE-TikaRa/MOOC-Exam-Analyzer/releases)页面，下载最新的<code>MOOC-Exam-Analyzer.exe</code>文件</li>
+    <li class="step-item">在电脑端和手机端安装最新版<code>Reqable</code>，[Reqable官网](https://reqable.com/zh-CN/)</li>
+    <li class="step-item">在手机端打开<code>Reqable</code>，并按照提示，将手机和电脑连接起来</li>
+    <li class="step-item">在手机端添加超星学习通
+      <img src="https://s2.loli.net/2025/07/02/gyxHfZ6AWove7dS.jpg" width="100%">
+      <img src="https://s2.loli.net/2025/07/02/VcpAJoe38szXTGY.jpg" width="100%">
+    </li>
+    <li class="step-item">然后手机端打开超星学习通，并打开试卷详情（题目页面）
+      <img src="https://s2.loli.net/2025/07/02/Mv8BOaSxpsAWYEG.jpg" width="100%">
+      <img src="https://s2.loli.net/2025/07/02/ScOCJbgLeTWsKwd.jpg" width="100%">
+    </li>
+  </ol>
+</div>
 
-因为孩子临考试才发现，学校的考试试卷只能手机查看，电脑上打不开，但是孩子想要把她整理成文档来复习，所以，写了。
-![01.png](https://s2.loli.net/2025/07/02/CStRF7rXUTAq9g1.png)
-
----
-
-# 使用方法
-
-1. 在[releases](https://github.com/RE-TikaRa/MOOC-Exam-Analyzer/releases)页面，下载最新的`MOOC-Exam-Analyzer.exe`文件
-
-
-2. 在电脑端和手机端安装最新版`Reqable`，[Reqable官网](https://reqable.com/zh-CN/)
-3. 在手机端打开`Reqable`，并按照提示，将手机和电脑连接起来
-4. 在手机端添加超星学习通
-![02.jpg](https://s2.loli.net/2025/07/02/gyxHfZ6AWove7dS.jpg)
-![03.jpg](https://s2.loli.net/2025/07/02/VcpAJoe38szXTGY.jpg)
-5. 然后手机端打开超星学习通，并打开试卷详情（题目页面）
-![04.jpg](https://s2.loli.net/2025/07/02/Mv8BOaSxpsAWYEG.jpg)
-![05.jpg](https://s2.loli.net/2025/07/02/ScOCJbgLeTWsKwd.jpg)
-6. 打开试卷之后点下一题把所有题目刷新显示一边
-7. 在电脑端就会显示如下数据
-![06.png](https://s2.loli.net/2025/07/02/comC2i5JpTLYOgH.png)
-8. 按CTRL+f 搜索关键词`look-detail`点击状态码
-9. 选择状态码为200后右键导出`响应体`，指定文件夹后得到如下文件
-![07.png](https://s2.loli.net/2025/07/02/NILMC9JlstFyHwU.png)
-![08.png](https://s2.loli.net/2025/07/02/8LKrAyCcmZoGxDq.png)
-10. 将我们先前下载的`MOOC-Exam-Analyzer.exe`复制到这个文件夹下，双击打开
-11. 然后依次点击`开始分析`和`TXT转Word`即可.（如果需要修改最后生成的DOCX的文件地址，请点击`输出Word`右侧的`浏览...`的按钮）
-![09.ong](https://s2.loli.net/2025/07/02/39LbMdtv7FCYwym.png)
-
-![10.png](https://s2.loli.net/2025/07/02/lHB68kdeGQi7mLV.png)
-
-![11.png](https://s2.loli.net/2025/07/02/BQ8fkAeR4osJqj3.png)
-
----
-
-# 后记
-如果在文件列表中未处理的HTML文件使用浏览器打开之后类似于下图一，则不用管，如果类似于下图二，请在软件的'问题反馈'选项卡中添加我的微信或者提交issue，我及时处理。
-![12.png](https://s2.loli.net/2025/07/02/uP6nvmziVygwLoE.png)
-![13.png](https://s2.loli.net/2025/07/02/pmwVBfEQNDeyJhC.png)
+<!-- 后记 -->
+<div class="notice">
+  <h3>⚠️ 注意事项</h3>
+  <p>如果在文件列表中未处理的HTML文件使用浏览器打开之后类似于下图一，则不用管，如果类似于下图二，请在软件的'问题反馈'选项卡中添加我的微信或者提交issue，我及时处理。</p>
+  <img src="https://s2.loli.net/2025/07/02/uP6nvmziVygwLoE.png" width="48%" style="margin-right: 2%">
+  <img src="https://s2.loli.net/2025/07/02/pmwVBfEQNDeyJhC.png" width="48%">
+</div>
